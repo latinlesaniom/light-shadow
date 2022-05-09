@@ -1,0 +1,29 @@
+
+:root {
+  --first: #BF793B;
+  --second: rgba(255, 68, 102);
+  --third: #F2C1AE;
+  --four: #F2C1AE;
+  --five: #0D0000;
+  --six: #F29494;
+}
+
+
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+
+
+html,
+body,
+#root{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: var(--third);
+  color: var(--second);
+}
